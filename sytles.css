@@ -1,0 +1,103 @@
+/* GLOBAL STYLES -------------------------------------------------- */
+
+/* Personalización de la barra de navegación */
+.mi-navbar {
+  background-color: #000; /* negro base */
+}
+
+/* Cuerpo principal */
+body {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  color: #fff; /* texto principal en blanco */
+  background-color: #000; /* fondo negro */
+}
+
+/* CUSTOMIZE THE CAROUSEL -------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  margin-bottom: 4rem;
+}
+
+/* Posicionamiento de captions */
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+  color: #FFD700; /* dorado para títulos del carousel */
+}
+
+/* Altura de cada slide */
+.carousel-item {
+  height: 32rem;
+}
+
+/* MARKETING CONTENT -------------------------------------------------- */
+
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+  color: #FFD700; /* títulos dorados */
+}
+
+.marketing .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+  color: #fff; /* párrafos en blanco */
+}
+
+.marketing .btn-secondary {
+  background-color: #FFD700; /* dorado */
+  border: none;
+  color: #000; /* texto negro */
+}
+
+.marketing .btn-secondary:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+/* Featurettes -------------------------------------------------- */
+
+.featurette-divider {
+  margin: 5rem 0;
+  border-color: #FFD700; /* líneas doradas */
+}
+
+.featurette-heading {
+  letter-spacing: -.05rem;
+  color: #FFD700; /* títulos dorados */
+}
+
+/* RESPONSIVE CSS -------------------------------------------------- */
+
+@media (min-width: 40em) {
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+}
+
+/* FOOTER -------------------------------------------------- */
+footer {
+  color: #fff;
+}
+
+footer a {
+  color: #FFD700;
+}
+
+footer a:hover {
+  color: #fff;
+}
